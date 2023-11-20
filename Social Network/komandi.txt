@@ -1,0 +1,39 @@
+19
+
+	//teq 5te nakraq ig
+priority list:
+	- exit function
+
+
+register - da
+login - da
+whoami - da
+logout - da
+
+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
+
+exit - OSHTE NE
+
+//def i op != kudeto imash ==, return !(lhs==rhs)
+
+general: - da - gotov
+	create da - topics, zaradi currUser malko se chupi abstrakciqta sus search i about - vij dali mojesh da go opravish
+	search <text> da - topics
+	open <title> da - topics, currentTopic, mode
+	open <id> da - topics, currentTopic, mode
+	about <id> da - topics
+	
+topic: da- gotov
+	post - da - input, currentTopic
+	p_open <title> - da ama testvai oshte malko - input, currentTopic, mode, currentPost
+	p_open <id> - da ama testva oshte malko - same
+	quit  da - mode
+	
+post: da - gotov
+	comment - da (test some more tho) - currentPost, input
+	comments - da - currentPost
+	reply <id> - ne - otg na komentar pod post
+	upvote <id> - da - input, currentPost, currentComment, currentUser
+	downvote <id> - da
+	p_close - da - mode
+	
